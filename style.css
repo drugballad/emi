@@ -2,17 +2,19 @@
 
 body{
 	color: white;
-	margin: 0;
-	padding: 0;
+	margin: 0 0 4rem 0;
+	padding: 0 0.5rem;
 	font-family: 'Nimbus Sans L', sans-serif;
 	font-weight: 400;
+	font-size: 18px;
 	
 	
 }
 
-p {
-	padding-left: 20%; padding-right: 20%;
+#intro {
+	margin: 0 auto;
 	text-align: left;
+	max-width: 50rem;
 	font-size: 2vh;
 }
 
