@@ -1,0 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+
+body{
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nimbus Sans L', sans-serif;
+	font-weight: 400;
+	
+	
+}
+
+p {
+	padding-left: 20%; padding-right: 20%;
+	text-align: left;
+	font-size: 2vh;
+}
+
+.navbar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	display: block;
+	padding: 15px 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.estrellas {
+	color: #dd6f96;
+	font-size: 3em;
+	text-align: center;
+	position: static;
+	left: 50%;
+	right: 50%
+	
+}
+
+.estrellas:hover {
+	cursor: default;
+	color: white;
+	
+}
+
+main {
+	
+	
+}
+
+#titulo{
+	
+	color: #dd6f96;
+	font-size: 3.5em;
+	font-family: 'Nimbus Sans L', sans-serif;
+	font-weight: 700;
+	text-shadow: 1.5px 1.5px 1px #e6e6e6; 
+	text-align: center;
+	-webkit-text-stroke: 0.2px black;
+}
+
+#titulo #linktitulo:link, #linktitulo:visited, #linktitulo:active {
+	color: #dd6f96;
+	text-decoration: none;
+}
+
+#subtitulo{
+	position: relative; bottom: 55px;
+	color: white;
+	font-size: 1em;
+	font-family: 'Nimbus Sans L', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
