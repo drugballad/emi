@@ -1,8 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
 
-@media screen and (max-width: 600px) {
-		.titulo { font-size: 0.7em; }
+
+html,body{
+	overflow-x: hidden;
 }
+
 body{
 	color: white;
 	margin: 0 0 4rem 0;
@@ -42,7 +44,7 @@ a a:link, a:visited, a:active{
 	color: white;
 	width: 100px;
 	display: block;
-	padding: 15px 10px;
+	padding: 15px 5px;
 	font-size: 1em;
 	text-align: center;
 }
@@ -89,22 +91,24 @@ a a:link, a:visited, a:active{
 	margin-left: 3px;
 }
 
-#titulo{
+.fecha, .update {
+	font-size: 2vh;
+}
+
+
+.titulo{
 	
 	color: #dd6f96;
-	font-size: 3.5em;
-	position: static;
-	width: 470px;
+	font-size: 3em;
 	margin: 0 auto;
 	font-family: 'Nimbus Sans L', sans-serif;
 	font-weight: 700;
 	-webkit-text-stroke: 0.2px black;
 	text-shadow: 1.5px 1.5px 1px #e6e6e6; 
-	text-align: center;
 	
 }
 
-#titulo #linktitulo:link, #linktitulo:visited, #linktitulo:active {
+.titulo .linktitulo:link, .linktitulo:visited, .linktitulo:active {
 	color: #dd6f96;
 	text-decoration: none;
 }
